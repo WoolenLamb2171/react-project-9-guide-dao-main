@@ -1,2 +1,2 @@
-# react-project3
-Created with CodeSandbox
+# react-project9
+Experiments with fetch, catch/try and api
