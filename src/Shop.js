@@ -8,8 +8,8 @@ export default function Shop() {
 
   useEffect(() => {
     (async()=>{
-      setLoader(true);
       try{
+        setLoader(true);
         const response = await fetch("https://learn.guidedao.xyz/api/student/products");
         const data = await response.json();
         if(data){
